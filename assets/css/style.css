@@ -35,6 +35,7 @@ footer {
 .main_content {
   background-color: #ffffff;
   width: 650px;
+  line-height: 1.8em;
 }
 
 .sidebar {
