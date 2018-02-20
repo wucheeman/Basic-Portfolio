@@ -17,6 +17,7 @@ section {
 }
 
 footer {
+  /* TODO: make this sticky; follow the tutorial link on the homework page */
   background-color: #666666;
   color: lightgrey;
   height: 60px;
@@ -26,6 +27,12 @@ footer {
   background-color: #4aaaa5;
   color: white;
   height: 60px;
+  width: 200px;
+  /* margin: 0 auto; <- uncomment to center text in box*/
+}
+
+.nav {
+
 }
 
 .subheader {
@@ -36,9 +43,11 @@ footer {
   background-color: #ffffff;
   width: 650px;
   line-height: 1.8em;
+  float: left;
 }
 
 .sidebar {
   background-color: #ffffff;
   width: 270px;
+  float: left;
 }
