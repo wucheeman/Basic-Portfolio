@@ -1,16 +1,43 @@
 * {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  /* background-color: #ffffff; */
+  color: #777777;
+}
+
+body {
+  width: 960px;
 }
 
 h1, h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.teal {
-  background-color: #4aaaa5;
-  color: red;
+section {
+  background-color: lightgray;
 }
 
 footer {
   background-color: #666666;
+  color: lightgrey;
+  height: 60px;
+}
+
+.main_header {
+  background-color: #4aaaa5;
+  color: white;
+  height: 60px;
+}
+
+.subheader {
+  color: #4aaaa5;
+}
+
+.main_content {
+  background-color: #ffffff;
+  width: 650px;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  width: 270px;
 }
