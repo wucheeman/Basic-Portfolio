@@ -4,38 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="all">
+  <!-- TODO Add reset.css -->
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all">
-  <title>Mark Hainline's Portfolio</title>
+  <title>Contact Me</title>
 </head>
 <body>
   <header>
-    <h1>Mark Hainline</h1>
-    <div class="nav">
-      <!-- Copy/paste whenever updated in index.html -->
-      <!-- TODO: make live links -->
-      <a href="#">About</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+    <div class="page_header_content">
+      <h1>Mark Hainline</h1>
+        <div class="nav">
+         <!-- Make these live links -->
+         <a href="#">About</a>
+         <a href="#">Portfolio</a>
+         <a href="#">Contact</a>
+        </div>
     </div>
   </header>
-  <h2>Contact</h2>
   <section>
-    <form>
-      <!-- TODO: first two need example entry -->
-      <!-- TODO: needs to enter content of form into body of an email -->
-      Name <br> <input type="text" name="name"> <br>
-      Email <br> <input type="text" name="email"> <br>
-      Message <br> <input type="text" name="message"> <br>
-      <input type="submit" value="Submit">
-    </form>
+    <div class="sidebar">
+      <h2 class="connect_header">Connect with Me</h2>
+        <hr>
+        <!-- TODO: convert these to live links -->
+        <!-- TODO: move width to CSS  -->
+        <img src="assets/images/github_logo.png" alt="github logo" width="70px"/>
+        <img src="assets/images/linked_in_logo.png" alt="linked in logo" width="70px"/>
+        <img src="assets/images/stackoverflow.png" alt="stack overflow logo" width="70px"/>
+    </div>
+    <div class="maincontent">
+      <h2  class="subheader">Contact</h2>
+        <hr>
+        <!-- TODO: test to confirm this creates email with return emaill address & comment in body -->
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name" size="88" placeholder="John Smith"><br>
+          Email:<br>
+          <input type="text" name="email" size="88" placeholder="jsmith@yourmail.com"><br>
+          Comment:<br>
+          <textarea name="comments" rows="10" cols="80"></textarea><br><br>
+          <input type="submit" value="Send">
+        </form>
+    </div>       
   </section>
-  <section>
-    <h2>Connect with Me</h2>
-    <!-- TODO: copy from index.html whenever it's updated -->
-    <img src="assets/images/github_logo.png"/>
-    <img src="assets/images/linked_in_logo.png"/>
-    <img src="assets/images/stackoverflow.png"/>
-  </section>
+  <footer>@copywrite 2018 Mark Hainline</footer>
 </body>
 </html>

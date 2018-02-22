@@ -1,9 +1,12 @@
+/* TODO: pull all assignments to teal into a single class and edit the css + html accordingly */
+
 a {
     /* TODO: check color */
     color: gray;
 }
 
 body {
+  /* TODO: fix this: margins are showing on header and footer that shouldn't be there. Maybe the light gray is on the wrong element? */
   /* TODO: check color */
   background: lightgray;
 }
@@ -42,6 +45,10 @@ h2 {
 header {
     /* TODO: check color */
     background: lightblue;
+      /* TODO: check border color */
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
 }
 
 hr {
@@ -50,6 +57,13 @@ hr {
   background-color: black;
   border-color: black;
 }
+
+input[type=submit] {
+  /* TODO: make button larger and lozenged shaped */
+  /* TODO: check and correct color */
+  background-color: teal;
+}
+
 section {
   clear: both;
   width: 960px;
