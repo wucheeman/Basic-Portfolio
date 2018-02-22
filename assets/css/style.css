@@ -1,19 +1,40 @@
+a {
+    /* TODO: check color */
+    color: gray;
+}
+
 body {
   /* TODO: check color */
   background: lightgray;
 }
 
 footer {
-  /* TODO: check color */
-  background: lightseagreen;
+  /* TODO: check background and color */
+  background: darkgray;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  /* TODO: check border color */
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: teal;
 }
 
 h1 {
-  /* TODO: pull color to class and change to correct one */
+  /* TODO: move background to class and change to correct one */
   background: green;
   text-align: center;
   width: 250px;
+  /* TODO: check color and correct */
+  color: white;
   /* float: left; */
+}
+
+h2 {
+  /* TODO: check color */
+  color: teal;
 }
 
 header {
@@ -29,10 +50,18 @@ hr {
 }
 section {
   clear: both;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#allcontent {
+.allcontent {
   width: 960px;
+}
+
+
+.connect_header {
+  text-align: center;
+  font-size: 18px;
 }
 
 .maincontent {
@@ -43,14 +72,13 @@ section {
 
 .nav {
   text-align: right;
-  /* width: 100px;
-  float: right; */
 }
 
 .real_me {
   width: 200px;
   height: 180px;
   float: left;
+  margin-right: 20px;
 }
 
 .sidebar {
