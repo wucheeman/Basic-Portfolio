@@ -9,6 +9,7 @@ body {
 }
 
 footer {
+  /* TODO: for bonus, make footer sticky */
   /* TODO: check background and color */
   background: darkgray;
   color: white;
@@ -27,6 +28,7 @@ h1 {
   background: green;
   text-align: center;
   width: 250px;
+  height: 50px;
   /* TODO: check color and correct */
   color: white;
   /* float: left; */
@@ -50,14 +52,14 @@ hr {
 }
 section {
   clear: both;
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.allcontent {
+/* .allcontent {
   width: 960px;
-}
-
+} */
 
 .connect_header {
   text-align: center;
@@ -72,6 +74,12 @@ section {
 
 .nav {
   text-align: right;
+}
+
+.page_header_content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .real_me {
