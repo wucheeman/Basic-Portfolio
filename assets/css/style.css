@@ -8,9 +8,27 @@ footer {
   background: lightseagreen;
 }
 
+h1 {
+  /* TODO: pull color to class and change to correct one */
+  background: green;
+  text-align: center;
+  width: 250px;
+  /* float: left; */
+}
+
 header {
     /* TODO: check color */
     background: lightblue;
+}
+
+hr {
+  /* TODO: check color; need to change both*/
+  /* TODO: check width */
+  background-color: black;
+  border-color: black;
+}
+section {
+  clear: both;
 }
 
 #allcontent {
@@ -24,7 +42,9 @@ header {
 }
 
 .nav {
-
+  text-align: right;
+  /* width: 100px;
+  float: right; */
 }
 
 .real_me {
