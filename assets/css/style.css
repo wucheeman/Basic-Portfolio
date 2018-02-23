@@ -5,13 +5,12 @@ a {
     color: gray;
 }
 
-body {
-  /* TODO: fix this: margins are showing on header and footer that shouldn't be there. Maybe the light gray is on the wrong element? */
-  /* TODO: check color */
-  background: lightgray;
+.main_background {
+  background-image: url("../images/concrete-wall.jpg");
+  background-size: 100%;
 }
 
-/* Does this work? */
+/* TODO: Does this work? */
 .grid {
   display: inline-block;
   width: 200px;
@@ -20,7 +19,7 @@ body {
   border-color: green;
 }
 
-/* Is this needed? Is it applied correctly?*/
+/* TODO: Is this needed? Is it applied correctly?*/
 .after-grid {
   border-color: yellow;
 }
@@ -54,6 +53,12 @@ h1 {
 h2 {
   /* TODO: check color */
   color: teal;
+}
+
+h3 {
+  /* TODO: check color */
+  background: teal;
+  color: white;
 }
 
 header {

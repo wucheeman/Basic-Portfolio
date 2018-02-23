@@ -19,31 +19,33 @@
         </div>
     </div>
   </header>
-  <section>
-    <div class="sidebar">
-      <h2 class="connect_header">Connect with Me</h2>
-        <hr>
-        <!-- TODO: convert these to live links -->
-        <!-- TODO: move width to CSS  -->
-        <img src="assets/images/github_logo.png" alt="github logo" width="70px"/>
-        <img src="assets/images/linked_in_logo.png" alt="linked in logo" width="70px"/>
-        <img src="assets/images/stackoverflow.png" alt="stack overflow logo" width="70px"/>
-    </div>
-    <div class="maincontent">
-      <h2  class="subheader">Contact</h2>
-        <hr>
-        <!-- TODO: test to confirm this creates email with return emaill address & comment in body -->
-        <form action="mailto:wucheeman@junomail.com" method="post" enctype="text/plain">
-          Name:<br>
-          <input type="text" name="name" size="88" placeholder="John Smith"><br>
-          Email:<br>
-          <input type="text" name="email" size="88" placeholder="jsmith@yourmail.com"><br>
-          Comment:<br>
-          <textarea name="comments" rows="10" cols="80"></textarea><br><br>
-          <input type="submit" value="Send">
-        </form>
-    </div>       
-  </section>
+  <div class="main_background">
+    <section>
+      <div class="sidebar">
+        <h2 class="connect_header">Connect with Me</h2>
+          <hr>
+          <!-- TODO: convert these to live links -->
+          <!-- TODO: move width to CSS  -->
+          <img src="assets/images/github_logo.png" alt="github logo" width="70px"/>
+          <img src="assets/images/linked_in_logo.png" alt="linked in logo" width="70px"/>
+          <img src="assets/images/stackoverflow.png" alt="stack overflow logo" width="70px"/>
+      </div>
+      <div class="maincontent">
+        <h2  class="subheader">Contact</h2>
+          <hr>
+          <!-- TODO: test to confirm this creates email with return emaill address & comment in body -->
+          <form action="mailto:wucheeman@example.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name" size="88" placeholder="John Smith"><br>
+            Email:<br>
+            <input type="text" name="email" size="88" placeholder="jsmith@yourmail.com"><br>
+            Comment:<br>
+            <textarea name="comments" rows="10" cols="80"></textarea><br><br>
+            <input type="submit" value="Send">
+          </form>
+      </div>       
+    </section>
+  </div>
   <footer>@copywrite 2018 Mark Hainline</footer>
 </body>
 </html>
