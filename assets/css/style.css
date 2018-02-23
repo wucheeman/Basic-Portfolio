@@ -89,6 +89,10 @@ section {
   width: 960px;
 } */
 
+.caption {
+  text-align: center;
+}
+
 .connect_header {
   text-align: center;
   font-size: 18px;
