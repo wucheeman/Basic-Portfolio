@@ -11,6 +11,20 @@ body {
   background: lightgray;
 }
 
+/* Does this work? */
+.grid {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border-color: green;
+}
+
+/* Is this needed? Is it applied correctly?*/
+.after-grid {
+  border-color: yellow;
+}
+
 footer {
   /* TODO: for bonus, make footer sticky */
   /* TODO: check background and color */
