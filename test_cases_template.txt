@@ -2,11 +2,11 @@ TEST CASES
 
 Index
 =====
-[x] No remaining todos in file, except production text
-[x] Nothing breaks when the page is resized horizontally or vertically
-[x] Page looks very similar to homework assignment
-[x] Links are live to other pages and to Github, LInked In,and Stack Overflow
-[x] HTML passes validation
+[] No remaining todos in file, except production text
+[] Nothing breaks when the page is resized horizontally or vertically
+[] Page looks very similar to homework assignment
+[] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[] HTML passes validation
 
 Contact
 =======
@@ -20,13 +20,13 @@ Contact
 
 Portfolio
 =========
-[x] No remaining todos in file
-[x] Nothing breaks when the page is resized horizontally or vertically
-[x] Page looks very similar to homework assignment
-[x] Links are live to other pages and to Github, LInked In,and Stack Overflow
-[x] HTML passes validation
+[] No remaining todos in file
+[] Nothing breaks when the page is resized horizontally or vertically
+[] Page looks very similar to homework assignment
+[] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[] HTML passes validation
 
 Styles
 ======
 [] No remaining todos in file
-[ ] CSS passes validation
+[] CSS passes validation
